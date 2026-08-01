@@ -4,7 +4,7 @@ Projet de simulation réseau réalisé avec **GNS3**, portant sur la configurati
 
 ## Contexte
 
-Travail réalisé en groupe dans le cadre d'un cursus en administration système et réseau, sous la supervision de M. RAZAFINDRAMONJA Clément Aubert.
+Travaux Dirigés (TD) réalisés en groupe dans le cadre d'un cursus en administration système et réseau, sous la supervision de M. RAZAFINDRAMONJA Clément Aubert.
 
 **Membres du groupe :**
 - RATEFISON Yakin Ny Aina
@@ -24,7 +24,7 @@ Travail réalisé en groupe dans le cadre d'un cursus en administration système
 
 ### Domaine OSPF (routeurs R7 à R9)
 
-- Configuration des routeurs et activation des interfaces
+- Configuration des routeurs et activation des interfaces (y compris les interfaces loopback)
 - Analyse des paquets Hello (intervalle de 10 secondes)
 - Détermination des Router-ID
 - Tests de connectivité entre routeurs (ping)
@@ -39,8 +39,8 @@ Travail réalisé en groupe dans le cadre d'un cursus en administration système
 ## Outils utilisés
 
 - **GNS3** : simulation de la topologie réseau
+- **Routeurs Cisco 7200** (image IOS, simulés via Dynamips)
 - **Wireshark** : analyse des échanges de paquets RIP et OSPF
-- Routeurs Cisco (simulés via Dynamips)
 
 ## Contenu du dépôt
 
