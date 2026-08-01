@@ -1,0 +1,31 @@
+Apr 30 13:05:50.036 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 30 13:05:50.038 HYPERVISOR: Started on IP = localhost, TCP port = 65262.
+Apr 30 13:05:50.463 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 30 13:05:50.467 HYPERVISOR: exec_cmd: hypervisor working_dir F:\ProjetRoutageIP\project-files\dynamips 
+Apr 30 13:05:50.467 GENERAL: working_dir=F:\ProjetRoutageIP\project-files\dynamips
+Apr 30 13:05:50.468 HYPERVISOR: exec_cmd: hypervisor working_dir F:\ProjetRoutageIP\project-files\dynamips\5d2c8b33-4d21-4c7b-bc5e-b81f2684d884 
+Apr 30 13:05:50.468 GENERAL: working_dir=F:\ProjetRoutageIP\project-files\dynamips\5d2c8b33-4d21-4c7b-bc5e-b81f2684d884
+Apr 30 13:05:50.483 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Apr 30 13:05:50.487 VM: VM R2 created.
+Apr 30 13:05:50.489 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Apr 30 13:05:50.490 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Apr 30 13:05:50.491 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 30 13:05:50.492 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Apr 30 13:05:50.496 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 30 13:05:50.498 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 30 13:05:50.503 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 30 13:05:50.505 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.2fa8.0000 
+Apr 30 13:05:50.512 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Apr 30 13:05:50.514 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Apr 30 13:05:50.517 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 30 13:05:50.518 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-8E 
+Apr 30 13:05:50.520 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 30 13:05:50.521 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-2FE-TX 
+Apr 30 13:06:06.138 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 30 13:07:25.437 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 30 13:07:25.455 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 30 13:07:25.466 HYPERVISOR: exec_cmd: vm delete R2 
+Apr 30 13:07:25.466 VM: VM R2 destroyed.
+Apr 30 13:07:25.485 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 30 13:07:25.574 HYPERVISOR: Stopped.
+Apr 30 13:07:25.574 GENERAL: reset done.
